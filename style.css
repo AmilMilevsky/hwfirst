@@ -1,0 +1,304 @@
+* body .container-fluid {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+* body .container-fluid .main {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+* body .container-fluid .main .mainleft {
+  overflow: hidden;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: #f8f9fb;
+  border-right: 2px solid #dfe0e2;
+}
+* body .container-fluid .main .mainleft .row1 {
+  height: 100px;
+}
+* body .container-fluid .main .mainleft .row2 p {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+* body .container-fluid .main .mainleft .row2,
+* body .container-fluid .main .mainleft .row3,
+* body .container-fluid .main .mainleft .row4,
+* body .container-fluid .main .mainleft .row5 {
+  transition: 0.8s;
+  line-height: 70px;
+  height: 70px;
+  text-align: left;
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+  padding-left: 20px !important;
+  border-bottom: 2px solid #dfe0e2;
+}
+* body .container-fluid .main .mainleft .row2 svg,
+* body .container-fluid .main .mainleft .row3 svg,
+* body .container-fluid .main .mainleft .row4 svg,
+* body .container-fluid .main .mainleft .row5 svg {
+  transition: 0.8s;
+  display: inline-block;
+  margin: 15px;
+  height: 24px;
+  width: 24px;
+}
+* body .container-fluid .main .mainleft .row2 p,
+* body .container-fluid .main .mainleft .row3 p,
+* body .container-fluid .main .mainleft .row4 p,
+* body .container-fluid .main .mainleft .row5 p {
+  transition: 0.8s;
+  font-weight: 400;
+  display: inline-block;
+}
+* body .container-fluid .main .mainleft .row3:hover, * body .container-fluid .main .mainleft .row3:active,
+* body .container-fluid .main .mainleft .row4:hover,
+* body .container-fluid .main .mainleft .row4:active,
+* body .container-fluid .main .mainleft .row5:hover,
+* body .container-fluid .main .mainleft .row5:active {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+* body .container-fluid .main .mainleft .row3:hover svg, * body .container-fluid .main .mainleft .row3:active svg,
+* body .container-fluid .main .mainleft .row4:hover svg,
+* body .container-fluid .main .mainleft .row4:active svg,
+* body .container-fluid .main .mainleft .row5:hover svg,
+* body .container-fluid .main .mainleft .row5:active svg {
+  color: #0fbe57;
+}
+* body .container-fluid .main .mainleft .row3:hover p, * body .container-fluid .main .mainleft .row3:active p,
+* body .container-fluid .main .mainleft .row4:hover p,
+* body .container-fluid .main .mainleft .row4:active p,
+* body .container-fluid .main .mainleft .row5:hover p,
+* body .container-fluid .main .mainleft .row5:active p {
+  font-weight: 600;
+  color: #0fbe57;
+  letter-spacing: 1.5px;
+}
+* body .container-fluid .main .mainleft .row3:hover .newlbl, * body .container-fluid .main .mainleft .row3:active .newlbl,
+* body .container-fluid .main .mainleft .row4:hover .newlbl,
+* body .container-fluid .main .mainleft .row4:active .newlbl,
+* body .container-fluid .main .mainleft .row5:hover .newlbl,
+* body .container-fluid .main .mainleft .row5:active .newlbl {
+  color: white !important;
+}
+* body .container-fluid .main .mainleft .row5 .newlbl {
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  width: 50px;
+  font-size: 17px;
+}
+* body .container-fluid .main .mainleft .row5 .newlbl:hover, * body .container-fluid .main .mainleft .row5 .newlbl:active {
+  color: white !important;
+}
+* body .container-fluid .main .mainright {
+  background-color: white;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+* body .container-fluid .main .mainright .row1 {
+  height: 70px;
+}
+* body .container-fluid .main .mainright .row1 .row1left {
+  text-align: left;
+  float: left;
+  padding-left: 25px !important;
+}
+* body .container-fluid .main .mainright .row1 .row1left svg {
+  background-color: #0fbe57;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.8s;
+  margin-top: 15px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+* body .container-fluid .main .mainright .row1 .row1left svg:hover {
+  background-color: white;
+  border: 2px solid #0fbe57;
+  transform: scale(1.2);
+  color: #0fbe57;
+}
+* body .container-fluid .main .mainright .row1 .row1right {
+  margin-top: 5px;
+  text-align: right;
+  float: right;
+  padding-right: 25px !important;
+}
+* body .container-fluid .main .mainright .row1 .row1right .p1 {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 50%;
+}
+* body .container-fluid .main .mainright .row1 .row1right .p2 {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 50%;
+}
+* body .container-fluid .main .mainright .row1 .row1right b {
+  font-size: 18px;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #0fbe57;
+}
+* body .container-fluid .main .mainright .row2 {
+  position: relative;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-top: 2px solid #ffefba;
+  padding-top: 70px !important;
+  height: 70px;
+  color: black;
+  text-align: center;
+}
+* body .container-fluid .main .mainright .row2 .buttonrow2 {
+  top: 0;
+  border: none;
+  padding: 7px !important;
+  color: black;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #ffefba;
+  width: 5vw;
+  left: 580px;
+  top: 0;
+  text-align: center;
+  position: absolute;
+}
+* body .container-fluid .main .mainright .row2 h1 {
+  font-size: 25px;
+}
+* body .container-fluid .main .mainright .row3 {
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-top: 60px !important;
+  width: 86%;
+  border-radius: 4px;
+  padding: 10px !important;
+  margin-left: 7% !important;
+  border: 2px solid gray;
+  height: 90px;
+}
+* body .container-fluid .main .mainright .row3 label {
+  margin-left: 10px;
+  color: gray;
+  display: block;
+}
+* body .container-fluid .main .mainright .row3 input {
+  border: none;
+  display: block;
+  outline: none;
+  padding: 5px;
+  background-color: transparent;
+}
+* body .container-fluid .main .mainright .row3 input::-moz-placeholder {
+  color: gray;
+}
+* body .container-fluid .main .mainright .row3 input:-ms-input-placeholder {
+  color: gray;
+}
+* body .container-fluid .main .mainright .row3 input::placeholder {
+  color: gray;
+}
+* body .container-fluid .main .mainright .row4 {
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-top: 20px !important;
+  width: 86%;
+  margin-left: 7% !important;
+}
+* body .container-fluid .main .mainright .row4 .row4left,
+* body .container-fluid .main .mainright .row4 .row4right {
+  height: 90px;
+  width: 49%;
+  border-radius: 4px;
+  padding: 10px !important;
+  border: 2px solid gray;
+}
+* body .container-fluid .main .mainright .row4 .row4left input,
+* body .container-fluid .main .mainright .row4 .row4right input {
+  height: 50%;
+  display: block;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: gray;
+}
+* body .container-fluid .main .mainright .row4 .row4left input::-moz-placeholder, * body .container-fluid .main .mainright .row4 .row4right input::-moz-placeholder {
+  color: gray;
+}
+* body .container-fluid .main .mainright .row4 .row4left input:-ms-input-placeholder, * body .container-fluid .main .mainright .row4 .row4right input:-ms-input-placeholder {
+  color: gray;
+}
+* body .container-fluid .main .mainright .row4 .row4left input::placeholder,
+* body .container-fluid .main .mainright .row4 .row4right input::placeholder {
+  color: gray;
+}
+* body .container-fluid .main .mainright .row4 .row4left label,
+* body .container-fluid .main .mainright .row4 .row4right label {
+  height: 50%;
+  color: gray;
+  display: block;
+}
+* body .container-fluid .main .mainright .row4 .row4left {
+  float: left;
+}
+* body .container-fluid .main .mainright .row4 .row4right {
+  float: right;
+}
+* body .container-fluid .main .mainright .row5 {
+  position: relative;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 86%;
+  margin-top: 60px !important;
+  margin-left: 7% !important;
+  text-align: center;
+}
+* body .container-fluid .main .mainright .row5 p {
+  margin-top: 28px !important;
+}
+* body .container-fluid .main .mainright .row5 a {
+  font-weight: bold;
+  transition: 0.8s;
+  margin-top: 50px !important;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+* body .container-fluid .main .mainright .row5 a:hover {
+  text-decoration: underline;
+  color: #0fbe57;
+  letter-spacing: 1.5px;
+  transform: scale(1.2);
+}
+* body .container-fluid .main .mainright .row5 button {
+  font-weight: 400;
+  transition: 0.7s;
+  margin-top: 20px !important;
+  height: 55px;
+  width: 100%;
+  background-color: #0fbe57;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+* body .container-fluid .main .mainright .row5 button:hover {
+  font-weight: 400;
+  transform: scale(1.1);
+  background-color: white;
+  border: 2px solid #0fbe57;
+  color: #0fbe57;
+  letter-spacing: 1.5px;
+}/*# sourceMappingURL=style.css.map */
